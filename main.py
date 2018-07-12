@@ -28,7 +28,7 @@ while True:
                 final_name = " ".join(final_name)
                 name_list.append(final_name)
                 print(final_name)
-                my_file.write(final_name + ' ')
+                my_file.write(final_name + ', ')
             for el_p in price:
                 final_price = el_p.text
                 final_price = re.findall(r'\S+', final_price)
